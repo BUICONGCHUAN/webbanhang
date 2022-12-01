@@ -85,11 +85,12 @@ header{
 .others > li:first-child {
     position: relative;
 }
-.others > li :first-child input{
+.others > li  input{
     width: 100%;
     border: none;
     background: transparent;
     outline: none;
+    border-bottom: 1px solid black;
 }
 .others >li:first-child i{
     position: absolute;
@@ -235,6 +236,7 @@ footer{
 .cartegory-right-content{
     justify-content: center;
     margin-top: 20px;
+
 }
 .cartegory-right-content-item{
     width: calc(25%-12px);
